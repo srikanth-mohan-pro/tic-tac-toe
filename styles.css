@@ -1,0 +1,33 @@
+/*  your css code here. If applicable */
+body{
+	height:100vh;
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+}
+ttt{
+	display:flex;
+	align-items:center;
+	
+}
+input{
+	width:260px;
+	height:5px;
+	padding:12px;
+	border:2px solid #ccc;
+	border-radius: 5px;
+	margin: 12px 0;
+	font-size: 16px;
+	outline:none;
+}
+button{
+	padding: 12px 25px;
+	margin: 10px 0px;
+	border:none;
+	background-color:white ;
+	font-size: 16px;
+	cursor: pointer;
+}
+h1, input, button{
+	display: block;
+}
